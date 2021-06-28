@@ -1,0 +1,54 @@
+.nav ul{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    float: right;
+
+}
+
+.nav li{
+    list-style-type: none;
+    font-size: 20px;
+    color:white;
+    margin: 15px;
+    text-decoration: none;
+
+   
+}
+.nav li:hover{
+    background-color:slategray;
+
+}
+.docu li{
+    list-style-type: none;
+    font-size: 30px;
+    margin:10px;
+}
+.docu li:hover{
+    color:black;
+}
+.docu ul {
+    background-color:dodgerblue;
+    background-attachment:fixed;
+    list-style-type: none;
+    font-size: 20px;
+    color: lavenderblush;
+    margin: 25px;
+    padding: 5px;
+    float: left;
+}
+.logopic{
+    display: block;
+    margin-left: 350px;
+    margin-right: 300px;
+    padding-top: 20px;
+}
+.opa{
+    opacity:1;
+}
+.opa:hover{
+    opacity: .95;
+    
+
+}
